@@ -1,6 +1,5 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include <math.h>
 
 /* Função que estima o tempo restante. */
 int evaluate(int total, int progress) {
