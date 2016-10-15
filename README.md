@@ -1,1 +1,1 @@
-# LabICC2
+# Laboratório de Introdução à Ciência da Computação II
