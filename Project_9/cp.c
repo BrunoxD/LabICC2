@@ -4,7 +4,7 @@
 /* Função que estima o tempo restante. */
 int evaluate(int total, int progress) {
 	if(progress != 0) {				
-		printf("Time remaining: %d seconds.\n", (int) ceil((5.0 * total) / progress));
+		printf("Time remaining: %d seconds\n", (int) ceil((5.0 * total) / progress));
 	 }else
 		/* Caso o número de bytes acumulado seja 0. */
 		printf("Time remaining: stalled\n");	
