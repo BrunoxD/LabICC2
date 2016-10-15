@@ -25,10 +25,10 @@ int main(int argc, char const *argv[]) {
 		/* Realiza a leitura do número de bytes lido. */
 		scanf("%d", &bytes);
 
-		/* Incrementa o progresso de cópia. */
+		/* Incrementa o progresso da cópia. */
 		progress += bytes;
 
-		/* Atualiza o restante. */
+		/* Atualiza o número de bytes restante. */
 		total -= bytes;			
 
 		/* A cada 5 segundos, realiza a estimativa de tempo. */
