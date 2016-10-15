@@ -1,11 +1,11 @@
-#include <stdlib.h>
 #include <stdio.h>
+#include <math.h>
 
 /* Função que estima o tempo restante. */
 int evaluate(int total, int progress) {
-	if(progress != 0) 		
-		printf("Time remaining: %d seconds.\n", (int) ((5 * total)/progress - 0.5));
-	 else
+	if(progress != 0) {				
+		printf("Time remaining: %d seconds.\n", (int) ceil((5.0 * total) / progress));
+	 }else
 		/* Caso o número de bytes acumulado seja 0. */
 		printf("Time remaining: stalled\n");	
 	return 0;
